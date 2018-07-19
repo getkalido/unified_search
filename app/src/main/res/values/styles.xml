@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:color">@color/colorBackground</item>
+    </style>
+
+    <style name="AppTheme.NoTitle" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoTitle.TransparentSelected" parent="AppTheme.NoTitle">
+        <item name="toolbarStyle">@style/AppTheme.SearchToolbarSelected</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:windowBackground">@color/transparent_white</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Toast</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppTheme.NoTitle.TransparentUnSelected" parent="AppTheme.NoTitle">
+        <item name="toolbarStyle">@style/AppTheme.SearchToolbarUnSelected</item>
+        <item name="android:actionMenuTextColor">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/transparent_white</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Toast</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppTheme.SearchToolbarSelected" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="titleTextAppearance">@style/MyTitleTextAppearanceSelected</item>
+        <item name="subtitleTextAppearance">@style/MySubTitleTextAppearanceSelected</item>
+    </style>
+
+    <style name="AppTheme.SearchToolbarUnSelected" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/white</item>
+        <item name="titleTextAppearance">@style/MyTitleTextAppearanceUnSelected</item>
+        <item name="subtitleTextAppearance">@style/MySubTitleTextAppearanceUnSelected</item>
+    </style>
+
+    <style name="MyTitleTextAppearanceSelected" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MyTitleTextAppearanceUnSelected" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="MySubTitleTextAppearanceSelected" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MySubTitleTextAppearanceUnSelected" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.SearchFilterSelected">
+        <item name="android:background">@drawable/rounded_square_teal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.SearchFilterUnSelected">
+        <item name="android:background">@drawable/rounded_square_teal_outline</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+</resources>
