@@ -7,4 +7,5 @@
     <color name="transparent">#00ffffff</color>
     <color name="white">#fff</color>
     <color name="transparent_white">#d5ffffff</color>
+    <color name="light_grey">#f2f2f2</color>
 </resources>

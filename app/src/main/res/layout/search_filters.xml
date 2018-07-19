@@ -5,34 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:parentTag="android.widget.LinearLayout">
-
-    <FrameLayout
-        android:id="@+id/search_holder"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        app:layout_constraintTop_toBottomOf="@id/toolbar">
-
-        <EditText
-            android:id="@+id/text"
-            android:layout_width="match_parent"
-            android:layout_height="?android:attr/actionBarSize"
-            android:layout_margin="6dp"
-            android:background="@drawable/rounded_square"
-            android:drawableStart="@drawable/left"
-            android:imeOptions="actionSearch" />
-    </FrameLayout>
+    tools:parentTag="androidx.coordinatorlayout.widget.CoordinatorLayout"
+    tools:showIn="@layout/app_toolbar_search">
 
     <HorizontalScrollView
         android:id="@+id/scroll"
         android:layout_width="match_parent"
         android:layout_height="@dimen/search_filter_scroll_height"
-        android:layout_marginTop="6dp"
+        android:background="@color/white"
         android:gravity="center_vertical"
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp"
         android:scrollbars="none"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/search_holder">
 
         <LinearLayout
@@ -58,9 +42,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:onClick="action2"
                 android:background="@drawable/rounded_square_teal_outline"
                 android:maxLines="1"
+                android:onClick="action2"
                 android:padding="4dp"
                 android:text="Distance" />
 
@@ -96,5 +80,4 @@
                 android:text="Sort by trust" />
         </LinearLayout>
     </HorizontalScrollView>
-
 </merge>

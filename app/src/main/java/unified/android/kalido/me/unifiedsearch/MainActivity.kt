@@ -8,10 +8,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.app.ActivityOptionsCompat
 import androidx.core.util.Pair
-import kotlinx.android.synthetic.main.app_toolbar_search.toolbar
-import kotlinx.android.synthetic.main.app_toolbar_search.scroll
 import kotlinx.android.synthetic.main.app_toolbar_search.search_holder
 import kotlinx.android.synthetic.main.app_toolbar_search.text
+import kotlinx.android.synthetic.main.app_toolbar_search.toolbar
+import kotlinx.android.synthetic.main.search_filters.scroll
 
 class MainActivity : AppCompatActivity() {
 
@@ -62,11 +62,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun action1(v: View) {
-        val intent = Intent(this, Main3Activity::class.java)
+        val intent = Intent(this, CalendarActivity::class.java)
 
         val transitionViews = arrayListOf(
                 Pair<View, String>(v,
-                        Main3Activity.TOOLBAR))
+                        CalendarActivity.TOOLBAR))
 
         val activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(
                 this,
@@ -78,11 +78,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun action2(v: View) {
-        val intent = Intent(this, Main4Activity::class.java)
+        val intent = Intent(this, ChipsActivity::class.java)
 
         val transitionViews = arrayListOf(
                 Pair<View, String>(v,
-                        Main4Activity.TOOLBAR))
+                        ChipsActivity.TOOLBAR))
 
         val activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(
                 this,

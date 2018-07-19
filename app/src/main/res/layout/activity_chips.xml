@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".Main4Activity">
+    tools:context=".ChipsActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"

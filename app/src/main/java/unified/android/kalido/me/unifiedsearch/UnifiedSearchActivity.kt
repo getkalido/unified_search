@@ -6,10 +6,10 @@ import android.view.MotionEvent
 import android.view.View.OnTouchListener
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
-import kotlinx.android.synthetic.main.activity_main2.search_background_color
-import kotlinx.android.synthetic.main.activity_main2.scroll
-import kotlinx.android.synthetic.main.activity_main2.search_holder
-import kotlinx.android.synthetic.main.activity_main2.text
+import kotlinx.android.synthetic.main.activity_unified_search.search_background_color
+import kotlinx.android.synthetic.main.activity_unified_search.search_holder
+import kotlinx.android.synthetic.main.activity_unified_search.text
+import kotlinx.android.synthetic.main.search_filters.scroll
 import unified.android.kalido.me.unifiedsearch.database.model.AppDatabase
 import unified.android.kalido.me.unifiedsearch.database.model.RecentSearch
 
@@ -17,7 +17,7 @@ class UnifiedSearchActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_unified_search)
 
         ViewCompat.setTransitionName(search_holder, SEARCH_HOLDER);
         ViewCompat.setTransitionName(scroll, SCROLL);
@@ -40,12 +40,8 @@ class UnifiedSearchActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        text.setOnTouchListener(OnTouchListener { view, event ->
+        text.setOnTouchListener(OnTouchListener { _, event ->
             val DRAWABLE_LEFT = 0
-            val DRAWABLE_TOP = 1
-            val DRAWABLE_RIGHT = 2
-            val DRAWABLE_BOTTOM = 3
-
             if (event?.action == MotionEvent.ACTION_UP) {
                 when (event.rawX) {
                     in text.left..text.compoundDrawables[DRAWABLE_LEFT].bounds.right -> {
