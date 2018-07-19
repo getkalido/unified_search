@@ -62,11 +62,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun action1(v: View) {
-        val intent = Intent(this, CalendarActivity::class.java)
+        val intent = Intent(this, SearchActivity::class.java)
 
         val transitionViews = arrayListOf(
                 Pair<View, String>(v,
-                        CalendarActivity.TOOLBAR))
+                        SearchActivity.TOOLBAR))
 
         val activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(
                 this,
@@ -78,11 +78,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun action2(v: View) {
-        val intent = Intent(this, ChipsActivity::class.java)
+        val intent = Intent(this, FilterActivity::class.java)
 
         val transitionViews = arrayListOf(
                 Pair<View, String>(v,
-                        ChipsActivity.TOOLBAR))
+                        FilterActivity.TOOLBAR))
 
         val activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(
                 this,

@@ -4,13 +4,13 @@ import android.os.Bundle
 import android.view.Menu
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
-import kotlinx.android.synthetic.main.activity_calendar.toolbar
+import kotlinx.android.synthetic.main.activity_filter.toolbar
 
-class CalendarActivity : AppCompatActivity() {
+class FilterActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_calendar)
+        setContentView(R.layout.activity_filter)
         ViewCompat.setTransitionName(toolbar, TOOLBAR);
 
         setSupportActionBar(toolbar)
@@ -18,7 +18,7 @@ class CalendarActivity : AppCompatActivity() {
             onBackPressed()
         }
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.setHomeAsUpIndicator(R.drawable.close)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.close_teal)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -26,7 +26,6 @@ class CalendarActivity : AppCompatActivity() {
             menuInflater.inflate(R.menu.reset, menu)
         }
     }
-
     companion object {
         const val TOOLBAR = "toolbar"
     }

@@ -31,7 +31,7 @@
     </style>
 
     <style name="AppTheme.SearchToolbarSelected" parent="Widget.AppCompat.Toolbar">
-        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:background">@color/teal</item>
         <item name="titleTextAppearance">@style/MyTitleTextAppearanceSelected</item>
         <item name="subtitleTextAppearance">@style/MySubTitleTextAppearanceSelected</item>
     </style>
@@ -65,7 +65,7 @@
 
     <style name="AppTheme.SearchFilterUnSelected">
         <item name="android:background">@drawable/rounded_square_teal_outline</item>
-        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColor">@color/teal</item>
     </style>
 
 </resources>

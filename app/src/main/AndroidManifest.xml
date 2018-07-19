@@ -29,7 +29,7 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".CalendarActivity"
+            android:name=".SearchActivity"
             android:label="All Networks"
             android:theme="@style/AppTheme.NoTitle.TransparentSelected">
             <meta-data
@@ -37,7 +37,7 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".ChipsActivity"
+            android:name=".FilterActivity"
             android:label="Distance"
             android:theme="@style/AppTheme.NoTitle.TransparentUnSelected">
             <intent-filter>

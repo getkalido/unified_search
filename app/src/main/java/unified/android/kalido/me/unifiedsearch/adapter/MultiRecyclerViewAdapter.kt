@@ -1,18 +1,16 @@
 package unified.android.kalido.me.unifiedsearch.adapter
 
-import androidx.recyclerview.widget.RecyclerView;
+import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import android.util.ArrayMap
-import android.view.ViewGroup
 import unified.android.kalido.me.unifiedsearch.adapter.BlankRecyclerView.FilteredAdapter
-import java.util.TreeSet
 
 class MultiRecyclerViewAdapter<FILTER> : RecyclerView.Adapter<RecyclerView.ViewHolder>, FilteredAdapter<Any> {
     private val mAdapters: MutableList<RecyclerView.Adapter<RecyclerView.ViewHolder>> = ArrayList()
     private var mIsAttachedToRecyclerView: Boolean = false
     private var mFilterConstraint: FILTER? = null
-    private val mViewTypeMap: ArrayList<ViewTypeParams> = ArrayList      ()
+    private val mViewTypeMap: ArrayList<ViewTypeParams> = ArrayList()
     private val mAdapterViewTypeMap: HashMap<Int, HashMap<Int, ViewTypeParams>> = HashMap<Int, HashMap<Int, ViewTypeParams>>()
 
     constructor(filterConstraint: FILTER) {

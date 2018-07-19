@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".CalendarActivity">
+    tools:context=".SearchActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
