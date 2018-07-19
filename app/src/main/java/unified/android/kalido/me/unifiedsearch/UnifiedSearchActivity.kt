@@ -7,13 +7,13 @@ import android.view.View.OnTouchListener
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import kotlinx.android.synthetic.main.activity_main2.search_background_color
-import kotlinx.android.synthetic.main.search_section_two.scroll
-import kotlinx.android.synthetic.main.search_section_two.search_holder
-import kotlinx.android.synthetic.main.search_section_two.text
+import kotlinx.android.synthetic.main.activity_main2.scroll
+import kotlinx.android.synthetic.main.activity_main2.search_holder
+import kotlinx.android.synthetic.main.activity_main2.text
 import unified.android.kalido.me.unifiedsearch.database.model.AppDatabase
 import unified.android.kalido.me.unifiedsearch.database.model.RecentSearch
 
-class Main2Activity : AppCompatActivity() {
+class UnifiedSearchActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,7 +29,7 @@ class Main2Activity : AppCompatActivity() {
                 KeyEvent.KEYCODE_ENTER -> {
                     if (textView.text.isNullOrEmpty())
                         AppDatabase.getAppDatabase(this).recentSearchDao().insertAll(RecentSearch().apply {
-                            id = AppDatabase.getAppDatabase(this@Main2Activity).recentSearchDao().countUsers()
+                            id = AppDatabase.getAppDatabase(this@UnifiedSearchActivity).recentSearchDao().countUsers()
                             searchText = textView.text.toString()
                         })
                 }
@@ -59,7 +59,7 @@ class Main2Activity : AppCompatActivity() {
 
         if (text.requestFocus())
             text.postDelayed({
-                this@Main2Activity.showKeyboard()
+                this@UnifiedSearchActivity.showKeyboard()
             }, 1000)
     }
 

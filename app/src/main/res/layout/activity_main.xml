@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <include layout="@layout/search_section_one" />
+    <include layout="@layout/app_toolbar_search" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/top_card"

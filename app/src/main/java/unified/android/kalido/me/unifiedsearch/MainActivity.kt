@@ -1,9 +1,6 @@
 package unified.android.kalido.me.unifiedsearch
 
-import android.app.ActivityOptions
 import android.content.Intent
-import android.os.Build.VERSION
-import android.os.Build.VERSION_CODES
 import android.os.Bundle
 import android.view.View
 import android.view.Window
@@ -11,10 +8,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.app.ActivityOptionsCompat
 import androidx.core.util.Pair
-import kotlinx.android.synthetic.main.search_section_one.toolbar
-import kotlinx.android.synthetic.main.search_section_one.scroll
-import kotlinx.android.synthetic.main.search_section_one.search_holder
-import kotlinx.android.synthetic.main.search_section_one.text
+import kotlinx.android.synthetic.main.app_toolbar_search.toolbar
+import kotlinx.android.synthetic.main.app_toolbar_search.scroll
+import kotlinx.android.synthetic.main.app_toolbar_search.search_holder
+import kotlinx.android.synthetic.main.app_toolbar_search.text
 
 class MainActivity : AppCompatActivity() {
 
@@ -30,19 +27,19 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openScreen(v: View) {
-        val intent = Intent(this, Main2Activity::class.java)
-        //intent.putExtra(Main2Activity.EXTRA_PARAM_ID, text.id)
+        val intent = Intent(this, UnifiedSearchActivity::class.java)
+        //intent.putExtra(UnifiedSearchActivity.EXTRA_PARAM_ID, text.id)
 
         val statusBar = findViewById<View>(android.R.id.statusBarBackground)
         val navigationBar = findViewById<View>(android.R.id.navigationBarBackground)
 
         val transitionViews = arrayListOf(
                 Pair<View, String>(toolbar,
-                        Main2Activity.SEARCH_BACKGROUND_COLOR),
+                        UnifiedSearchActivity.SEARCH_BACKGROUND_COLOR),
                 Pair<View, String>(search_holder,
-                        Main2Activity.SEARCH_HOLDER),
+                        UnifiedSearchActivity.SEARCH_HOLDER),
                 Pair<View, String>(scroll,
-                        Main2Activity.SCROLL))
+                        UnifiedSearchActivity.SCROLL))
 
 
         if (statusBar != null) {
