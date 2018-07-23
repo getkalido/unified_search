@@ -1,0 +1,17 @@
+<resources>
+    <declare-styleable name="UnifiedSearchBar">
+        <attr name="expanded" format="boolean"/>
+        <attr name="search_types" format="enum">
+            <enum name="feed" value="0" />
+            <enum name="community" value="1" />
+            <enum name="opportunities" value="2" />
+            <enum name="goal_view" value="3" />
+            <enum name="featured_providers" value="4" />
+            <enum name="nearby" value="5" />
+            <enum name="chat" value="6" />
+            <enum name="invite_join_network_email" value="7" />
+            <enum name="invite_join_network_sms" value="8" />
+            <enum name="invite_sign_up_sms" value="9" />
+        </attr>
+    </declare-styleable>
+</resources>

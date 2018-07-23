@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="k_font_extra_extra_small">9dp</dimen>
+    <dimen name="k_font_extra_small">11dp</dimen>
+    <dimen name="k_font_small">13dp</dimen>
+    <dimen name="k_font_medium">16dp</dimen>
+    <dimen name="k_font_large">19dp</dimen>
+    <dimen name="k_font_extra_large">42dp</dimen>
+    <dimen name="padding_extra_extra_small">4dp</dimen>
+    <dimen name="padding_extra_small">8dp</dimen>
+    <dimen name="padding_small">12dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">20dp</dimen>
+    <dimen name="padding_extra_large">24dp</dimen>
+    <dimen name="padding_extra_extra_large">28dp</dimen>
+    <dimen name="padding_special">3dp</dimen>
+    <dimen name="icon_extra_extra_small">8dp</dimen>
+    <dimen name="icon_extra_small">12dp</dimen>
+    <dimen name="icon_small">16dp</dimen>
+    <dimen name="icon_medium">20dp</dimen>
+    <dimen name="icon_large">24dp</dimen>
+    <dimen name="icon_extra_large">32dp</dimen>
+    <dimen name="icon_extra_large_plus">24dp</dimen>
+    <dimen name="icon_extra_extra_large">60dp</dimen>
+    <dimen name="icon_mega">100dp</dimen>
+    <dimen name="icon_big">36dp</dimen>
+    <dimen name="icon_bigplus">40dp</dimen>
+    <dimen name="icon_blankscreen">100dp</dimen>
+    <dimen name="image_small">28dp</dimen>
+    <dimen name="image_medium">40dp</dimen>
+    <dimen name="image_large">48dp</dimen>
+    <dimen name="image_med_large">52dp</dimen>
+    <dimen name="image_extra_large">88dp</dimen>
+    <dimen name="image_big">80dp</dimen>
+    <dimen name="image_blankscreen">120dp</dimen>
+    <dimen name="line_divider">1dp</dimen>
+    <dimen name="card_radius">2dp</dimen>
+    <dimen name="bottom_button_height">48dp</dimen>
+    <dimen name="nearby_profile_image">104dp</dimen>
+    <dimen name="blankscreen_top">44dp</dimen>
+    <dimen name="blankscreen_bottom">60dp</dimen>
+    <dimen name="blankscreen_side">45dp</dimen>
+    <dimen name="chat_circles">74dp</dimen>
+    <dimen name="icon_warning">60dp</dimen>
+    <dimen name="nearby_card_height">168dp</dimen>
+    <dimen name="chat_bottom_bar">60dp</dimen>
+    <dimen name="button_background">32dp</dimen>
+    <dimen name="feed_card_width">300dp</dimen>
+    <dimen name="feed_card_height">388dp</dimen>
+    <dimen name="tooltip_width">246dp</dimen>
+    <dimen name="tooltip_height">164dp</dimen>
+    <dimen name="tooltip_height_long">192dp</dimen>
+    <dimen name="tag_height">28dp</dimen>
+
+    <style name="AppTheme.Universal" />
+
+    <style name="AppTheme.Universal.heading_2a" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_medium</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_900</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading_2a_white" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_medium</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading_2b" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_900</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading_2b_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_900</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading_2b_white" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading_2b_white_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading_2b_orange_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/orange_a400</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading3" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_900</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading3_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_900</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading4" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_500</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading5" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_300</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading6" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/teal_a700</item>
+    </style>
+
+    <style name="AppTheme.Universal.blank_screen_heading" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/grey_400</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.body" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_500</item>
+    </style>
+
+    <style name="AppTheme.Universal.body_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_500</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.body_white" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Universal.body_white_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.small_white_regular" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Universal.small_white_regular_on_dark" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white_on_dark</item>
+    </style>
+
+    <style name="AppTheme.Universal.small_white_regular_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.blank_screen_body" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/grey_400</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.body_highlight_1" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_500</item>
+    </style>
+
+    <style name="AppTheme.Universal.body_highlight_2" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/orange_a400</item>
+    </style>
+
+    <style name="AppTheme.Universal.body_highlight_2_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/orange_a400</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.body_highlight_3" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_900</item>
+    </style>
+
+    <style name="AppTheme.Universal.body_highlight_4" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Universal.body_highlight_5" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_900</item>
+    </style>
+
+    <style name="AppTheme.Universal.body_bg200" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_300</item>
+    </style>
+
+    <style name="AppTheme.Universal.button_1" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/teal_a700</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="background">@color/transparent</item><!--<item name="android:minHeight">0dp</item><item name="android:minWidth">0dp</item>-->
+    </style>
+
+    <style name="AppTheme.Universal.button_1_center" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/teal_a700</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="background">@color/transparent</item><!--<item name="android:minHeight">0dp</item><item name="android:minWidth">0dp</item>-->
+    </style>
+
+    <style name="AppTheme.Universal.button_2" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_500</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="background">@color/transparent</item><!--<item name="android:minHeight">0dp</item><item name="android:minWidth">0dp</item>-->
+    </style>
+
+    <style name="AppTheme.Universal.button_white" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="background">@color/transparent</item><!--<item name="android:minHeight">0dp</item><item name="android:minWidth">0dp</item>-->
+    </style>
+
+    <style name="AppTheme.Universal.button_white_center" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="background">@color/transparent</item><!--<item name="android:minHeight">0dp</item><item name="android:minWidth">0dp</item>-->
+    </style>
+
+    <style name="AppTheme.Universal.blank_screen_button" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_1" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_300</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_1_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_300</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_1_right" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_300</item>
+        <item name="android:gravity">end</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_2" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_500</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_2_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_500</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_3" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/orange_a400</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_3_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/orange_a400</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_3_right" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/orange_a400</item>
+        <item name="android:gravity">end</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_4" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/orange_a400</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_4_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/orange_a400</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_5" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/amber_a700</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_5_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/amber_a700</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_6" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_300</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_6_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_300</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_7" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_7_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_7_link" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_300</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_highlight_1" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_500</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_highlight_1_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_500</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.timestamps" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/grey_400</item>
+    </style>
+
+    <style name="AppTheme.Universal.timestamps_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/grey_400</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.timestamps_right" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/grey_400</item>
+        <item name="android:gravity">end</item>
+    </style>
+
+    <style name="AppTheme.Universal.chat_receipt_heading" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_700</item>
+    </style>
+
+    <style name="AppTheme.Universal.chat_receipt_heading_reg" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_700</item>
+    </style>
+
+    <style name="AppTheme.Universal.chat_receipt_body" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_700</item>
+    </style>
+
+    <style name="AppTheme.Universal.chat_receipt_body_reg" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_700</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_white" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_white_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_white_right" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">end</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_8" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_900</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_error" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/red_800</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading_2c" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_medium</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_500</item>
+    </style>
+
+    <style name="AppTheme.Universal.timestamps_small" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/grey_400</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_scaling_1" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_scaling_2" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_700</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_white_regular" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_white_regular_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading_2a_orange" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_medium</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/orange_a400</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading_2a_orange_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_medium</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/orange_a400</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.extra_large_blue_grey" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_large</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_500</item>
+    </style>
+
+    <style name="AppTheme.Universal.extra_large_blue_grey_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_large</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_500</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.extra_large_orange" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_large</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/orange_a400</item>
+    </style>
+
+    <style name="AppTheme.Universal.extra_large_orange_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_large</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/orange_a400</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.extra_small_white_regular" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">end</item>
+    </style>
+
+    <style name="AppTheme.Universal.small_xxsmall_bg_200" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_300</item>
+    </style>
+
+    <style name="AppTheme.Universal.button_small_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/teal_a700</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.button_red_center" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/red_800</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="background">@color/transparent</item><!--<item name="android:minHeight">0dp</item><item name="android:minWidth">0dp</item>-->
+    </style>
+
+    <style name="AppTheme.Universal.xl_light_bg500" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_large</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_500</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.button_1_disabled" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/grey_300</item>
+    </style>
+
+    <style name="AppTheme.Universal.grey_body" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/grey_300</item>
+    </style>
+
+    <style name="AppTheme.Universal.button_big" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/teal_a700</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="AppTheme.Universal.button_1_center_uc" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/teal_a700</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="background">@color/transparent</item><!--<item name="android:minHeight">0dp</item><item name="android:minWidth">0dp</item>-->
+    </style>
+
+    <style name="AppTheme.Universal.button_1_center_disabled" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/grey_300</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="background">@color/transparent</item><!--<item name="android:minHeight">0dp</item><item name="android:minWidth">0dp</item>-->
+    </style>
+
+    <style name="AppTheme.Universal.heading_2b_disabled" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/grey_300</item>
+    </style>
+
+    <style name="AppTheme.Universal.subtext_1_disabled" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_extra_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/grey_300</item>
+    </style>
+
+    <style name="AppTheme.Universal.titlebar_head" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_large</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_200</item>
+    </style>
+
+    <style name="AppTheme.Universal.titlebar_subhead" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_200</item>
+    </style>
+
+    <style name="AppTheme.Universal.heading_1b" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_large</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/blue_grey_900</item>
+    </style>
+
+    <style name="AppTheme.Universal.button_red_right" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/red_800</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="background">@color/transparent</item><!--<item name="android:minHeight">0dp</item><item name="android:minWidth">0dp</item>-->
+    </style>
+
+    <style name="AppTheme.Universal.button_1_right" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/teal_a700</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="background">@color/transparent</item><!--<item name="android:minHeight">0dp</item><item name="android:minWidth">0dp</item>-->
+    </style>
+
+    <style name="AppTheme.Universal.button_1_center_uc_disabled" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/grey_300</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="background">@color/transparent</item><!--<item name="android:minHeight">0dp</item><item name="android:minWidth">0dp</item>-->
+    </style>
+
+    <style name="AppTheme.Universal.heading_1a_white_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_large</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.body_dark_disabled" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_700</item>
+    </style>
+
+    <style name="AppTheme.Universal.body_bg200_center" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/blue_grey_300</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Universal.body_white_bold" parent="AppTheme.Universal">
+        <item name="android:textSize">@dimen/k_font_small</item>
+        <item name="android:fontFamily">sans-serif-bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

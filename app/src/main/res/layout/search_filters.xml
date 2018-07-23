@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout"
-    tools:showIn="@layout/app_toolbar_search">
+    tools:showIn="@layout/app_toolbar_search_expanded">
 
     <HorizontalScrollView
         android:id="@+id/scroll"

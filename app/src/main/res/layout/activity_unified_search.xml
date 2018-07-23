@@ -7,45 +7,15 @@
     android:orientation="vertical"
     tools:context=".UnifiedSearchActivity">
 
-    <View
-        android:id="@+id/search_background_color"
-        android:layout_width="match_parent"
-        android:layout_height="?android:attr/actionBarSize"
-        android:background="@color/colorPrimary" />
-
-
-    <View
-        android:id="@+id/search_background_color"
-        android:layout_width="match_parent"
-        android:layout_height="?android:attr/actionBarSize"
-        android:background="@color/colorPrimary"
-        app:layout_constraintBottom_toBottomOf="@id/toolbar"
-        app:layout_constraintEnd_toEndOf="@+id/toolbar"
-        app:layout_constraintStart_toStartOf="@+id/toolbar"
-        app:layout_constraintTop_toTopOf="@+id/toolbar" />
-
-    <FrameLayout
-        android:id="@+id/search_holder"
-        android:layout_width="match_parent"
+    <unified.android.kalido.me.unifiedsearch.UnifiedSearchBar
+        android:id="@+id/search"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        app:layout_constraintTop_toBottomOf="@id/toolbar">
-
-        <EditText
-            android:id="@+id/text"
-            android:layout_width="match_parent"
-            android:layout_height="?android:attr/actionBarSize"
-            android:layout_margin="6dp"
-            android:background="@drawable/rounded_square"
-            android:drawableStart="@drawable/left"
-            android:imeOptions="actionSearch" />
-    </FrameLayout>
-
-    <include
-        layout="@layout/search_filters"
+        app:expanded="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/search_holder" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:search_types="community" />
 
     <LinearLayout
         android:id="@+id/list"
@@ -53,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/scroll">
+        app:layout_constraintTop_toBottomOf="@id/search">
 
         <TextView
             android:layout_width="match_parent"

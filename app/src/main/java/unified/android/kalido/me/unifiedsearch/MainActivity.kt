@@ -8,9 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.app.ActivityOptionsCompat
 import androidx.core.util.Pair
-import kotlinx.android.synthetic.main.app_toolbar_search.search_holder
-import kotlinx.android.synthetic.main.app_toolbar_search.text
-import kotlinx.android.synthetic.main.app_toolbar_search.toolbar
+import kotlinx.android.synthetic.main.app_toolbar_search_expanded.search_holder
+import kotlinx.android.synthetic.main.app_toolbar_search_expanded.text
+import kotlinx.android.synthetic.main.app_toolbar_search_expanded.toolbar
 import kotlinx.android.synthetic.main.search_filters.scroll
 
 class MainActivity : AppCompatActivity() {

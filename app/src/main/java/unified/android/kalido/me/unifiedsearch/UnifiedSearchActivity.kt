@@ -6,9 +6,9 @@ import android.view.MotionEvent
 import android.view.View.OnTouchListener
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
-import kotlinx.android.synthetic.main.activity_unified_search.search_background_color
-import kotlinx.android.synthetic.main.activity_unified_search.search_holder
-import kotlinx.android.synthetic.main.activity_unified_search.text
+import kotlinx.android.synthetic.main.app_toolbar_search_collapsed.search_background_color
+import kotlinx.android.synthetic.main.app_toolbar_search_collapsed.search_holder
+import kotlinx.android.synthetic.main.app_toolbar_search_collapsed.text
 import kotlinx.android.synthetic.main.search_filters.scroll
 import unified.android.kalido.me.unifiedsearch.database.model.AppDatabase
 import unified.android.kalido.me.unifiedsearch.database.model.RecentSearch
